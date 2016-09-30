@@ -1,0 +1,68 @@
+﻿@model IEnumerable<DesafioNibo.Dominio.LancamentoBancario>
+
+@{
+    ViewBag.Title = "Index";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h2>Index</h2>
+
+<p>
+    @Html.ActionLink("Create New", "Create")
+</p>
+<table class="table">
+    <tr>
+        <th>
+           Número do banco
+        </th>
+        <th>
+            Número da agência
+        </th>
+        <th>
+            Tipo do lançamento
+        </th>
+        <th>
+            Valor
+        </th>
+        <th>
+            Checknum
+        </th>
+        <th>
+            Descricao
+        </th>
+        <th>
+            Data de postagem
+        </th>
+        <th></th>
+    </tr>
+
+@foreach (var item in Model) {
+    <tr>
+        <td>
+            @Html.DisplayFor(modelItem => item.NumeroDoBanco)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.NumeroDaAgencia)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.TipoDoLancamento)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Valor)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Checknum)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Descricao)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.DataDePostagem)
+        </td>
+        <td>
+            @Html.ActionLink("Delete", "Delete", new { id=item.Id })
+        </td>
+    </tr>
+}
+
+</table>
