@@ -9,7 +9,7 @@ using DesafioNibo.Services;
 
 namespace DesafioNibo.Controllers
 {
-    public class LancamentoBancariosController : Controller
+    public class LancamentoBancarioController : Controller
     {
         private ApplicationDbContext db = new ApplicationDbContext();
 
@@ -29,8 +29,8 @@ namespace DesafioNibo.Controllers
         public ActionResult Create(LancamentoBacarioViewModel lancamentoBacarioViewModel)
         {
             if (!ModelState.IsValid) return View(lancamentoBacarioViewModel);
-            //try
-            //{
+            try
+            {
                 var lancamentoBancarioAppService = new LancamentoBancarioAppService();
 
                 string[] lines;
@@ -42,11 +42,11 @@ namespace DesafioNibo.Controllers
                 var lancamentosBancarios = lancamentoBancarioAppService.PopulaLancamentosBancarios(lines);
                 db.TransacaoBancarias.AddRange(lancamentosBancarios);
                 db.SaveChanges();
-            //}
-            //catch (Exception ex)
-            //{
-            //    return new HttpStatusCodeResult(500, ex.Message);
-            //}
+            }
+            catch (Exception ex)
+            {
+                return new HttpStatusCodeResult(500, ex.Message);
+            }
 
             return RedirectToAction("Index");
         }
@@ -58,7 +58,7 @@ namespace DesafioNibo.Controllers
             {
                 return new HttpStatusCodeResult(HttpStatusCode.BadRequest);
             }
-            LancamentoBancario lancamentoBancario = db.TransacaoBancarias.Find(id);
+            var lancamentoBancario = db.TransacaoBancarias.Find(id);
             if (lancamentoBancario == null)
             {
                 return HttpNotFound();
@@ -71,7 +71,7 @@ namespace DesafioNibo.Controllers
         [ValidateAntiForgeryToken]
         public ActionResult DeleteConfirmed(Guid id)
         {
-            LancamentoBancario lancamentoBancario = db.TransacaoBancarias.Find(id);
+            var lancamentoBancario = db.TransacaoBancarias.Find(id);
             db.TransacaoBancarias.Remove(lancamentoBancario);
             db.SaveChanges();
             return RedirectToAction("Index");

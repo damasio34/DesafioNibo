@@ -210,9 +210,11 @@
     <Compile Include="App_Start\WebApiConfig.cs" />
     <Compile Include="Controllers\AccountController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
-    <Compile Include="Controllers\LancamentoBancariosController.cs" />
+    <Compile Include="Controllers\LancamentoBancarioController.cs" />
     <Compile Include="Controllers\ManageController.cs" />
     <Compile Include="Dominio\LancamentoBancario.cs" />
+    <Compile Include="Dominio\TipoDeMoeda.cs" />
+    <Compile Include="Dominio\TipoDoLancamento.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
@@ -284,9 +286,9 @@
     <Content Include="Views\Manage\VerifyPhoneNumber.cshtml" />
     <Content Include="Views\Shared\Lockout.cshtml" />
     <Content Include="Views\Shared\_LoginPartial.cshtml" />
-    <Content Include="Views\LancamentoBancarios\Create.cshtml" />
-    <Content Include="Views\LancamentoBancarios\Delete.cshtml" />
-    <Content Include="Views\LancamentoBancarios\Index.cshtml" />
+    <Content Include="Views\LancamentoBancario\Create.cshtml" />
+    <Content Include="Views\LancamentoBancario\Delete.cshtml" />
+    <Content Include="Views\LancamentoBancario\Index.cshtml" />
   </ItemGroup>
   <ItemGroup />
   <ItemGroup>

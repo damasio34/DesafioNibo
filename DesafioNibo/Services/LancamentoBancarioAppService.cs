@@ -8,6 +8,8 @@ namespace DesafioNibo.Services
 {
     public class LancamentoBancarioAppService
     {
+        #region [ Métodos privados ]
+        
         /// <summary>
         /// Seleciona a chave de uma tag
         /// </summary>
@@ -105,6 +107,8 @@ namespace DesafioNibo.Services
 
             return lancamento;
         }
+
+        #endregion
 
         /// <summary>
         /// Adiciona lançamentos na transação bancária

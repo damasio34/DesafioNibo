@@ -1,5 +1,4 @@
 ﻿using System;
-using System.ComponentModel;
 
 namespace DesafioNibo.Dominio
 {
@@ -24,25 +23,5 @@ namespace DesafioNibo.Dominio
         public string Checknum { get; set; }
         public string Descricao { get; set; }
         public DateTime? DataDePostagem { get; set; }
-    }
-
-    public enum TipoDeMoeda
-    {
-        [Description("BLR")]
-        Real = 1,
-        [Description("EUR")]
-        Euro = 2,
-        [Description("USD")]
-        Dolar = 3
-    }
-
-    public enum TipoDoLancamento
-    {
-        [Description("DEBIT")]
-        Debito = 1,
-        [Description("CREDIT")]
-        Credito = 2,
-        [Description("OTHER")]
-        Outro = 3
     }
 }
