@@ -4,7 +4,7 @@ namespace DesafioNibo.Dominio
 {
     public enum TipoDeMoeda
     {
-        [Description("BLR")]
+        [Description("BRL")]
         Real = 1,
         [Description("EUR")]
         Euro = 2,

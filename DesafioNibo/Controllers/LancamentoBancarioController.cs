@@ -1,7 +1,9 @@
 ﻿using System;
+using System.Collections.Generic;
 using System.IO;
 using System.Linq;
 using System.Net;
+using System.Threading.Tasks;
 using System.Web.Mvc;
 using DesafioNibo.Dominio;
 using DesafioNibo.Models;
@@ -26,21 +28,15 @@ namespace DesafioNibo.Controllers
         }
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public ActionResult Create(LancamentoBacarioViewModel lancamentoBacarioViewModel)
+        public ActionResult Create(LancamentoBacarioViewModel  lancamentoBacarioViewModel)
         {
             if (!ModelState.IsValid) return View(lancamentoBacarioViewModel);
             try
             {
                 var lancamentoBancarioAppService = new LancamentoBancarioAppService();
+                var lancamentos = lancamentoBancarioAppService.EnviaLancamentos(lancamentoBacarioViewModel);
 
-                string[] lines;
-                using (var input = lancamentoBacarioViewModel.Arquivo.InputStream)
-                {
-                    using (var sr = new StreamReader(input)) lines = sr.ReadToEnd().Split(new[] { "\r\n" }, StringSplitOptions.None);
-                }
-
-                var lancamentosBancarios = lancamentoBancarioAppService.PopulaLancamentosBancarios(lines);
-                db.TransacaoBancarias.AddRange(lancamentosBancarios);
+                db.TransacaoBancarias.AddRange(lancamentos);
                 db.SaveChanges();
             }
             catch (Exception ex)
@@ -50,7 +46,7 @@ namespace DesafioNibo.Controllers
 
             return RedirectToAction("Index");
         }
-       
+
         // GET: LancamentoBancarios/Delete/5
         public ActionResult Delete(Guid? id)
         {

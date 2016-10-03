@@ -40,7 +40,10 @@ D:\Repositorios\github\damasio34\DesafioNibo\DesafioNibo\bin\Microsoft.Owin.Secu
 D:\Repositorios\github\damasio34\DesafioNibo\DesafioNibo\bin\Microsoft.Web.Infrastructure.dll
 D:\Repositorios\github\damasio34\DesafioNibo\DesafioNibo\bin\Newtonsoft.Json.dll
 D:\Repositorios\github\damasio34\DesafioNibo\DesafioNibo\bin\Owin.dll
+D:\Repositorios\github\damasio34\DesafioNibo\DesafioNibo\bin\System.Net.Http.Formatting.dll
 D:\Repositorios\github\damasio34\DesafioNibo\DesafioNibo\bin\System.Web.Helpers.dll
+D:\Repositorios\github\damasio34\DesafioNibo\DesafioNibo\bin\System.Web.Http.dll
+D:\Repositorios\github\damasio34\DesafioNibo\DesafioNibo\bin\System.Web.Http.WebHost.dll
 D:\Repositorios\github\damasio34\DesafioNibo\DesafioNibo\bin\System.Web.Mvc.dll
 D:\Repositorios\github\damasio34\DesafioNibo\DesafioNibo\bin\System.Web.Optimization.dll
 D:\Repositorios\github\damasio34\DesafioNibo\DesafioNibo\bin\System.Web.Razor.dll
@@ -54,6 +57,9 @@ D:\Repositorios\github\damasio34\DesafioNibo\DesafioNibo\bin\Microsoft.AI.Web.xm
 D:\Repositorios\github\damasio34\DesafioNibo\DesafioNibo\bin\Microsoft.AI.WindowsServer.xml
 D:\Repositorios\github\damasio34\DesafioNibo\DesafioNibo\bin\Microsoft.ApplicationInsights.xml
 D:\Repositorios\github\damasio34\DesafioNibo\DesafioNibo\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+D:\Repositorios\github\damasio34\DesafioNibo\DesafioNibo\bin\System.Net.Http.Formatting.xml
+D:\Repositorios\github\damasio34\DesafioNibo\DesafioNibo\bin\System.Web.Http.xml
+D:\Repositorios\github\damasio34\DesafioNibo\DesafioNibo\bin\System.Web.Http.WebHost.xml
 D:\Repositorios\github\damasio34\DesafioNibo\DesafioNibo\bin\System.Web.Helpers.xml
 D:\Repositorios\github\damasio34\DesafioNibo\DesafioNibo\bin\System.Web.Mvc.xml
 D:\Repositorios\github\damasio34\DesafioNibo\DesafioNibo\bin\System.Web.Optimization.xml
@@ -77,12 +83,5 @@ D:\Repositorios\github\damasio34\DesafioNibo\DesafioNibo\bin\Microsoft.Owin.Secu
 D:\Repositorios\github\damasio34\DesafioNibo\DesafioNibo\bin\Microsoft.Owin.Security.Google.xml
 D:\Repositorios\github\damasio34\DesafioNibo\DesafioNibo\bin\Microsoft.Owin.Security.Twitter.xml
 D:\Repositorios\github\damasio34\DesafioNibo\DesafioNibo\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
-D:\Repositorios\github\damasio34\DesafioNibo\DesafioNibo\obj\Debug\DesafioNibo.csprojResolveAssemblyReference.cache
 D:\Repositorios\github\damasio34\DesafioNibo\DesafioNibo\obj\Debug\DesafioNibo.dll
 D:\Repositorios\github\damasio34\DesafioNibo\DesafioNibo\obj\Debug\DesafioNibo.pdb
-D:\Repositorios\github\damasio34\DesafioNibo\DesafioNibo\bin\System.Net.Http.Formatting.dll
-D:\Repositorios\github\damasio34\DesafioNibo\DesafioNibo\bin\System.Web.Http.dll
-D:\Repositorios\github\damasio34\DesafioNibo\DesafioNibo\bin\System.Web.Http.WebHost.dll
-D:\Repositorios\github\damasio34\DesafioNibo\DesafioNibo\bin\System.Net.Http.Formatting.xml
-D:\Repositorios\github\damasio34\DesafioNibo\DesafioNibo\bin\System.Web.Http.xml
-D:\Repositorios\github\damasio34\DesafioNibo\DesafioNibo\bin\System.Web.Http.WebHost.xml

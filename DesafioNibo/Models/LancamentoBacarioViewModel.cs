@@ -1,4 +1,5 @@
-﻿using System.ComponentModel.DataAnnotations;
+﻿using System.Collections.Generic;
+using System.ComponentModel.DataAnnotations;
 using System.Web;
 
 namespace DesafioNibo.Models
@@ -6,6 +7,6 @@ namespace DesafioNibo.Models
     public class LancamentoBacarioViewModel
     {
         [DataType(DataType.Upload)]
-        public HttpPostedFileBase Arquivo { get; set; }
+        public IEnumerable<HttpPostedFileBase> Arquivos { get; set; }
     }
 }

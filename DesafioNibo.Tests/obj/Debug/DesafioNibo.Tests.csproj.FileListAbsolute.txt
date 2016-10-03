@@ -31,9 +31,11 @@ D:\Repositorios\github\damasio34\DesafioNibo\DesafioNibo.Tests\bin\Debug\Microso
 D:\Repositorios\github\damasio34\DesafioNibo\DesafioNibo.Tests\bin\Debug\Microsoft.Owin.Security.dll
 D:\Repositorios\github\damasio34\DesafioNibo\DesafioNibo.Tests\bin\Debug\Owin.dll
 D:\Repositorios\github\damasio34\DesafioNibo\DesafioNibo.Tests\bin\Debug\Microsoft.Owin.Security.Cookies.dll
+D:\Repositorios\github\damasio34\DesafioNibo\DesafioNibo.Tests\bin\Debug\System.Web.Http.dll
 D:\Repositorios\github\damasio34\DesafioNibo\DesafioNibo.Tests\bin\Debug\Microsoft.AspNet.Identity.EntityFramework.dll
 D:\Repositorios\github\damasio34\DesafioNibo\DesafioNibo.Tests\bin\Debug\EntityFramework.dll
 D:\Repositorios\github\damasio34\DesafioNibo\DesafioNibo.Tests\bin\Debug\Microsoft.Owin.Host.SystemWeb.dll
+D:\Repositorios\github\damasio34\DesafioNibo\DesafioNibo.Tests\bin\Debug\System.Net.Http.Formatting.dll
 D:\Repositorios\github\damasio34\DesafioNibo\DesafioNibo.Tests\bin\Debug\DesafioNibo.pdb
 D:\Repositorios\github\damasio34\DesafioNibo\DesafioNibo.Tests\bin\Debug\Microsoft.VisualStudio.QualityTools.UnitTestFramework.xml
 D:\Repositorios\github\damasio34\DesafioNibo\DesafioNibo.Tests\bin\Debug\Newtonsoft.Json.xml
@@ -49,13 +51,11 @@ D:\Repositorios\github\damasio34\DesafioNibo\DesafioNibo.Tests\bin\Debug\Microso
 D:\Repositorios\github\damasio34\DesafioNibo\DesafioNibo.Tests\bin\Debug\Microsoft.AspNet.Identity.Owin.xml
 D:\Repositorios\github\damasio34\DesafioNibo\DesafioNibo.Tests\bin\Debug\Microsoft.Owin.Security.xml
 D:\Repositorios\github\damasio34\DesafioNibo\DesafioNibo.Tests\bin\Debug\Microsoft.Owin.Security.Cookies.xml
+D:\Repositorios\github\damasio34\DesafioNibo\DesafioNibo.Tests\bin\Debug\System.Web.Http.xml
 D:\Repositorios\github\damasio34\DesafioNibo\DesafioNibo.Tests\bin\Debug\Microsoft.AspNet.Identity.EntityFramework.xml
 D:\Repositorios\github\damasio34\DesafioNibo\DesafioNibo.Tests\bin\Debug\EntityFramework.xml
 D:\Repositorios\github\damasio34\DesafioNibo\DesafioNibo.Tests\bin\Debug\Microsoft.Owin.Host.SystemWeb.xml
+D:\Repositorios\github\damasio34\DesafioNibo\DesafioNibo.Tests\bin\Debug\System.Net.Http.Formatting.xml
 D:\Repositorios\github\damasio34\DesafioNibo\DesafioNibo.Tests\obj\Debug\DesafioNibo.Tests.csprojResolveAssemblyReference.cache
 D:\Repositorios\github\damasio34\DesafioNibo\DesafioNibo.Tests\obj\Debug\DesafioNibo.Tests.dll
 D:\Repositorios\github\damasio34\DesafioNibo\DesafioNibo.Tests\obj\Debug\DesafioNibo.Tests.pdb
-D:\Repositorios\github\damasio34\DesafioNibo\DesafioNibo.Tests\bin\Debug\System.Web.Http.dll
-D:\Repositorios\github\damasio34\DesafioNibo\DesafioNibo.Tests\bin\Debug\System.Net.Http.Formatting.dll
-D:\Repositorios\github\damasio34\DesafioNibo\DesafioNibo.Tests\bin\Debug\System.Web.Http.xml
-D:\Repositorios\github\damasio34\DesafioNibo\DesafioNibo.Tests\bin\Debug\System.Net.Http.Formatting.xml
